@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind demo</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="box-border">
+    <header>
+      <nav class="flex justify-end py-8 bg-black m-auto text-white">
+        <div>
+          <a class="bg-black text-orange-300 my-auto" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+      <div class="bg-[url('/img/showcase.jpg')] bg-no-repeat bg-center h-96">
+        <div class="m-auto overflow-auto px-5">
+          <div class="text-white text-center pt-170">
+            <h1 class="text-7xl pt-20 font-bold">
+              <span class="text-orange-300">Enjoy</span> Your Stay
+            </h1>
+            <p class="pb-10 pt-5 leading-7 text-xl mx-2.5">
+              Your Icelandic hotel stay starts right here
+            </p>
+            <a
+              class="inline-block text-lg text-white bg-black p-4 border-none cursor-pointer hover:bg-orange-300"
+              href="about.html"
+              >About Our Hotel</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="flex justify-between bg-black">
+      <div class="bg-[url('/img/photo-1.jpg')] w-3/6 min-h-full"></div>
+      <div class="w-2/4 h-full text-center pb-7 pt-7 overflow-hidden">
+        <div class="text-2xl pb-7 text-white font-bold">
+          <h2><span class="text-orange-300">The History</span> Of Our Hotel</h2>
+        </div>
+        <p class="text-white px-5 py-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum vel
+          ea, adipisci deleniti odit, excepturi nisi saepe commodi sit natus
+          magnam blanditiis exercitationem vero, autem odio magni tempore atque
+          eos.
+        </p>
+        <div class="pt-10">
+          <a
+            class="inline-block text-lg text-black bg-white p-4 border-none cursor-pointer hover:bg-orange-300"
+            href="about.html"
+            >Read more</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="flex justify-between px-5 py-3">
+      <div class="w-1/3 px-12 text-center">
+        <div class="pt-10">
+          <i class="fas fa-hotel fa-3x"></i>
+        </div>
+        <h3 class="font-bold text-xl">Great location</h3>
+        <p class="py-8 px-5">
+          lorem, isum dolor sit amet consent adilakels lej flau dsklandka
+        </p>
+      </div>
+      <div class="float-left w-1/3 p-12 text-center bg-red-100">
+        <div class="pt-10">
+          <i class="fas fa-utensils fa-3x"></i>
+        </div>
+        <h3 class="font-bold text-xl">Free Meals</h3>
+        <p class="py-8 px-5">
+          lorem, isum dolor sit amet consent adilakels lej flau dsklandka
+        </p>
+      </div>
+      <div class="float-none w-1/3 p-12 text-center bg-red-100">
+        <div class="pt-10">
+          <i class="fas fa-dumbbell fa-3x"></i>
+        </div>
+        <h3 class="font-bold text-xl">Fitness Room</h3>
+        <p class="py-8 px-5">
+          lorem, isum dolor sit amet consent adilakels lej flau dsklandka
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p class="text-center bg-black text-white py-8">
+        Hotel &copy; 2024, All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
